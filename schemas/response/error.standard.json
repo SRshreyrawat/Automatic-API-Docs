@@ -1,0 +1,22 @@
+{
+  "type": "object",
+  "properties": {
+    "error": {
+      "type": "string",
+      "description": "Error type"
+    },
+    "message": {
+      "type": "string",
+      "description": "Error message"
+    },
+    "statusCode": {
+      "type": "number",
+      "description": "HTTP status code"
+    },
+    "details": {
+      "type": "object",
+      "description": "Additional error details"
+    }
+  },
+  "required": ["error", "message", "statusCode"]
+}
